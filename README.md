@@ -1,4 +1,4 @@
-## Code for Evaluating Cultural Diversity in Text-to-Image Models (Bachelor Thesis Project)
+## Evaluating Cultural Diversity in Text-to-Image Models (Bachelor Thesis Project)
 T2I models have made impressive progress, but often fail to reflect cultural diversity. Existing benchmarks rely on simple, English-centric prompts, overlooking the complexity of people, places, and their interactions in diverse cultural contexts. To address this, we introduce a new benchmark for evaluating cultural knowledge in T2I models, featuring:
 
 1) A scalable pipeline to extract and refine cultural concepts from Wikipedia using large language models (LLMs) and human validation.
@@ -74,7 +74,7 @@ We evaluate two automatic metrics:
 
 In experiments with 200 aligned Wikipedia image–caption pairs, we find that embedding-based models (e.g., CLIP) fail to capture concept similarity reliably. In contrast, VQA models effectively identify culturally specific concepts in both real and synthetic images, making them a strong candidate for evaluating cultural alignment.
 
-*Code and results for this section will be released soon.*
+> Code and results for this section will be released soon.
 
 ---
 
@@ -85,7 +85,7 @@ We test three T2I models—AltDiffusion-m9, StableDiffusionXLbase-1.0, and FLUX.
 - **Monolingual:** Using prompt templates with cultural concepts to evaluate cross-cultural knowledge and generation quality.  
 - **Multilingual:** Translating prompts into Mandarin, German, Korean, and Spanish to assess multilingual ability and cross-lingual consistency [Qi et al., 2023] (https://arxiv.org/abs/2310.10378).
 
-*Code and results for this section will be released soon.*
+>Code and results for this section will be released soon.
 
 
 ## Citation
