@@ -1,4 +1,4 @@
-## Evaluating Cultural Diversity in Text-to-Image Models (Bachelor Thesis Project)
+## [Evaluating Cultural Diversity in Text-to-Image Models](https://tuprints.ulb.tu-darmstadt.de/30814/) (Bachelor Thesis Project)
 T2I models have made impressive progress, but often fail to reflect cultural diversity. Existing benchmarks rely on simple, English-centric prompts, overlooking the complexity of people, places, and their interactions in diverse cultural contexts. To address this, we introduce a new benchmark for evaluating cultural knowledge in T2I models, featuring:
 
 1) A scalable pipeline to extract and refine cultural concepts from Wikipedia using large language models (LLMs) and human validation.
@@ -90,7 +90,7 @@ We test three T2I models—AltDiffusion-m9, StableDiffusionXLbase-1.0, and FLUX.
 
 ## Citation
 
-This repository contains data/code derived from the thesis:
+This repository contains data/code derived from my [bachelor thesis](https://tuprints.ulb.tu-darmstadt.de/30814/):
 
 Kai Li, *Evaluating Cultural Diversity in Text-to-Image Models*,  
 B.Sc. Computer Science, TU Darmstadt, 2024.
